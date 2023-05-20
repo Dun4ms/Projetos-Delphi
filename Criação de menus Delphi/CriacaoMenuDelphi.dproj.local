@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/28 00:02:35.000.503,=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/28 00:43:25.000.568,C:\Users\Danilo\Desktop\Criação de menus Delphi\unitPrincipal.pas=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/28 00:43:25.000.568,C:\Users\Danilo\Desktop\Criação de menus Delphi\unitPrincipal.dfm=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/11/28 00:44:40.000.226,C:\Users\Danilo\Desktop\Criação de menus Delphi\CriacaoMenuDelphi.dproj=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
