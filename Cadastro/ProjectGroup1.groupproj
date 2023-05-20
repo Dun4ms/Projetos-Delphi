@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{810F41DF-78C9-4EC4-86A3-72F2A223EB9D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Cadastro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Criação de menus Delphi\CriacaoMenuDelphi.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Cadastro">
+        <MSBuild Projects="Cadastro.dproj"/>
+    </Target>
+    <Target Name="Cadastro:Clean">
+        <MSBuild Projects="Cadastro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Cadastro:Make">
+        <MSBuild Projects="Cadastro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CriacaoMenuDelphi">
+        <MSBuild Projects="..\Criação de menus Delphi\CriacaoMenuDelphi.dproj"/>
+    </Target>
+    <Target Name="CriacaoMenuDelphi:Clean">
+        <MSBuild Projects="..\Criação de menus Delphi\CriacaoMenuDelphi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CriacaoMenuDelphi:Make">
+        <MSBuild Projects="..\Criação de menus Delphi\CriacaoMenuDelphi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Cadastro;CriacaoMenuDelphi"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Cadastro:Clean;CriacaoMenuDelphi:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Cadastro:Make;CriacaoMenuDelphi:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
