@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/30 23:15:08.000.696,=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/30 23:38:51.000.854,C:\Users\Danilo\Desktop\SistemaClinica\unitPrincipal.pas=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/30 23:38:51.000.854,C:\Users\Danilo\Desktop\SistemaClinica\unitPrincipal.dfm=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/30 23:39:06.000.441,C:\Users\Danilo\Desktop\SistemaClinica\Clinica.dproj=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/31 00:48:22.000.071,=C:\Users\Danilo\Desktop\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2022/12/31 00:49:04.000.580,C:\Users\Danilo\Desktop\SistemaClinica\unitCadPacientes.pas=C:\Users\Danilo\Desktop\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2022/12/31 00:49:04.000.580,C:\Users\Danilo\Desktop\SistemaClinica\unitCadPacientes.dfm=C:\Users\Danilo\Desktop\SistemaClinica\Unit2.dfm</Transaction>
+    <Transaction>2022/12/31 00:49:37.000.224,=C:\Users\Danilo\Desktop\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2022/12/31 00:50:14.000.711,C:\Users\Danilo\Desktop\SistemaClinica\unitCadAgendamentos.dfm=C:\Users\Danilo\Desktop\SistemaClinica\Unit3.dfm</Transaction>
+    <Transaction>2022/12/31 00:50:14.000.711,C:\Users\Danilo\Desktop\SistemaClinica\unitCadAgendamentos.pas=C:\Users\Danilo\Desktop\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2022/12/31 16:36:00.000.133,=C:\Users\Danilo\Desktop\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2022/12/31 16:46:38.000.657,C:\Users\Danilo\Desktop\SistemaClinica\Unit1.pas=C:\Users\Danilo\Desktop\SistemaClinica\unitDM.pas</Transaction>
+    <Transaction>2022/12/31 16:46:38.000.657,C:\Users\Danilo\Desktop\SistemaClinica\Unit1.dfm=C:\Users\Danilo\Desktop\SistemaClinica\unitDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
